@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tarea4_Ejercicio1</string>
+    <string name="escribir">Escribe tu nombre y apellido:</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

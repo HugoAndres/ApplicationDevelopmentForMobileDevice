@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tarea4_Ejercicio2</string>
+    <string name="Texto">Ingresa los valores de la ecuación</string>
+    <string name="a">Ingresa el valor de A</string>
+    <string name="b">Ingresa el valor de B</string>
+    <string name="c">Ingresa el valor de C</string>
+    <string name="aceptar">Aceptar</string>
+</resources>

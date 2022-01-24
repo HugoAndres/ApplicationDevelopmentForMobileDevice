@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">ParalelepipedoApp</string>
+    <string name="v1">Vector 1</string>
+    <string name="v2">Vector 2</string>
+    <string name="v3">Vector 3</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<AnalogClock
+android:id="@+id/AnalogClock01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintTop_toTopOf="parent"/>
+<CheckBox
+android:id="@+id/CheckBox01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un checkBox"
+app:layout_constraintTop_toBottomOf="@+id/AnalogClock01"
+app:layout_constraintTop_toTopOf="parent"/>
+<Button
+android:id="@+id/Button01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un botón"
+app:layout_constraintTop_toBottomOf="@+id/CheckBox01"
+app:layout_constraintLeft_toLeftOf="@+id/CheckBox01"/>
+<TextView
+android:id="@+id/TextView01"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un texto cualquiera"
+app:layout_constraintBottom_toBottomOf="parent"
+app:layout_constraintLeft_toLeftOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>

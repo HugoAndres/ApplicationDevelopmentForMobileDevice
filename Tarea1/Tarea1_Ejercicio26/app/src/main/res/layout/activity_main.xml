@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Archivo: activity_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent" >
+    <AutoCompleteTextView
+        android:id="@+id/xactv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="autocompletado de palabras "
+        android:completionThreshold="1"
+        android:singleLine="true" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<AnalogClock
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:layout_x="50px"
+android:layout_y="50px"/>
+<CheckBox
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un checkBox"
+android:layout_x="150px"
+android:layout_y="50px"/>
+<Button
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un botón"
+android:layout_x="50px"
+android:layout_y="250px"/>
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Un texto cualquiera"
+android:layout_x="150px"
+android:layout_y="200px"/>
+    </AbsoluteLayout>
